@@ -110,6 +110,8 @@ public class UDPGephi {
                   GraphView viewEgo = filterController.filter(queryEgo);
                   graphModel.setVisibleView(viewEgo);//Set the filter result as the visible view
                   
+                  applet.mousePressed(); //Trick to avoid needed click to refresh JFrame
+                  
                }
       }
 }
